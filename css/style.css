@@ -1913,14 +1913,12 @@ label{
     padding-left:10px;
     padding-right:10px;
 }
-.option a.hover-zoom,
-.option a.hover-link{
+
+.option a{
     color: #e74c3c;
-}
-.option a.hover-zoom:hover,
-.option a.hover-link:hover{
-    background: #333;
-    color:#fff;
+    text-align: center;
+    margin: auto;
+   
 }
 .arrow-left, .arrow-right{
     width: 23px;
@@ -2360,6 +2358,54 @@ a.read:after {
     font-size: 112%;
 }
 
+/* recent work
+====================================*/
+.recent_work {
+    padding: 15px 15px 25px;
+    margin:0 auto;
+    text-align: center;
+    cursor: pointer;
+    box-shadow:0 0 4px #DEDEDE;
+    background-color: #f8d6d6;
+    border-radius: 4px;
+}
+
+.recent_work,
+.recent_work i,
+.recent_work p,
+.recent_work h3 {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.recent_work p {
+    margin: 0;
+    font-family:lato;
+}
+.recent_work h3 {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    margin-top:0;
+}
+
+.recent_work i {
+    color: #fff;
+    font-size: 2em;
+    margin: 10px 0 22px;
+    background: #313131;
+    display: inline-block;
+    width: 62px;
+    height: 62px;
+    line-height: 62px;
+    border-radius: 50%;
+}
+
+
+
 /* service Box 2
 ====================================*/
 .serviceBox_2 {
@@ -2369,6 +2415,7 @@ a.read:after {
     cursor: pointer;
     box-shadow:0 0 4px #DEDEDE;
     border-radius: 4px;
+    
 }
 
 .serviceBox_2,
