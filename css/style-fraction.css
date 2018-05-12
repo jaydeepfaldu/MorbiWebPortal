@@ -4,50 +4,46 @@
     position:relative;
     overflow:hidden;
     width:100%;
-    min-height: 550px;
-   /* background: url("../images/fraction-slider/NEW-6.png");*/
+    min-height: 680px;
+    /* background: url("../images/fraction-slider/NEW-6.png");*/
     background-size:100%;
     margin:0;
 }
 @media only screen and (min-width: 1024px) and (max-width: 1280px){
     .slider-wrapper
     {
-        min-height:450px;
+        min-height: 580px;
     }
 }
-@media only screen and (min-width: 900px) and (max-width: 1024px){
+@media only screen and (min-width: 751px) and (max-width: 1023px){
 
     .slider-wrapper
     {
-        max-height:230px;
+        min-height: 430px;   
     }
 }
-@media only screen and (min-width: 751px) and (max-width: 900px){
+@media only screen and (min-width: 400px) and (max-width: 750px){
 
     .slider-wrapper
     {
-        max-height:190px;
+        min-height: 340px;
+        
     }
 }
-@media only screen and (min-width: 641px) and (max-width: 750px){
+@media only screen and (min-width: 250px) and (max-width: 399px){
 
     .slider-wrapper
     {
-        max-height:180px;
+        min-height: 130px;
+        
     }
 }
-@media only screen and (min-width: 480px) and (max-width: 640px){
+@media only screen and (max-width: 249px){
 
     .slider-wrapper
     {
-        max-height:172px;
-    }
-}
-@media only screen and (max-width: 479px){
-
-    .slider-wrapper
-    {
-        max-height:108px;
+        min-height: 80px;
+        
     }
 }
 .slider{
